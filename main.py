@@ -19,5 +19,15 @@ print(a)
 print(test)
 print(c)
 print(d)
+print()
 
 # + - * / // % **
+
+print(10 == 1)  # False
+print(10 == "10") # False
+print(a != 10)  # False
+print(a > 5) # True
+print(a < 20)   # True
+print(a >= 10)  # True
+print(a <= 9)   # False
+print()
