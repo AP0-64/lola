@@ -64,3 +64,12 @@ while True:
     if a == 100:
         break
 print()
+
+# Exemple avec continue
+for i in range(5):
+    print("aaaaaaaaa")
+    if i == 2:
+        continue  # Passe à l'itération suivante si i vaut 2
+    print("i vaut :", i)
+    print()
+print("Boucle avec continue terminee")
