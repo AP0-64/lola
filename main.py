@@ -14,6 +14,7 @@ a = 10         # int
 test = -3.14      # float
 c = "Hello World"    # str
 d = True       # bool
+m = 5
 
 print(a)
 print(test)
@@ -30,4 +31,12 @@ print(a > 5) # True
 print(a < 20)   # True
 print(a >= 10)  # True
 print(a <= 9)   # False
+print()
+
+if m > 5:
+    print("m est plus grand que 5")
+elif m == 5:
+    print("m est egal a 5")
+else:
+    print("m est plus petit ou egal a 5")
 print()
