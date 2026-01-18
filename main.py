@@ -40,3 +40,20 @@ elif m == 5:
 else:
     print("m est plus petit ou egal a 5")
 print()
+
+if 10 > 5 and 2 < 3:
+    print("Les deux conditions sont vraies")
+if 10 > 5 or 2 > 3:
+    print("Au moins une des conditions est vraie")
+print()
+
+while m > 0:
+    print("m vaut :", m)
+    m = m - 1
+print("Boucle terminee")
+print()
+
+for i in range(5):
+    print("i vaut :", i)
+print("Boucle terminee")
+print()
