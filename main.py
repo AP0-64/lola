@@ -4,8 +4,18 @@
 # FLOAT
 # ex : 1.5, -0.3, 0.0, 3.0, 2.000001
 
-# STR / STRING
+# STR / STRING / CHAINE DE CARACTERES
 # ex : "hello", 'world', "123", "", ' '
 
 # BOOL / BOOLEAN
 # ex : True, False
+
+a = 10         # int
+test = -3.14      # float
+c = "Hello World"    # str
+d = True       # bool
+
+print(a)
+print(test)
+print(c)
+print(d)
