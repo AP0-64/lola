@@ -19,3 +19,5 @@ print(a)
 print(test)
 print(c)
 print(d)
+
+# + - * / // % **
