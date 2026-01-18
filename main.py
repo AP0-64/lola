@@ -57,3 +57,10 @@ for i in range(5):
     print("i vaut :", i)
 print("Boucle terminee")
 print()
+
+while True:
+    a = a + 1
+    print(a)
+    if a == 100:
+        break
+print()
