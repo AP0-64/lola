@@ -73,3 +73,13 @@ for i in range(5):
     print("i vaut :", i)
     print()
 print("Boucle avec continue terminee")
+
+def test_function(x, y=0):
+    x = x + 1
+    x = x * 2
+    return x
+
+result = test_function(9, 5)
+print("Le résultat de la fonction est :", result)
+
+res = test_function(50)
