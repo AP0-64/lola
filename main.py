@@ -116,3 +116,16 @@ print()
 
 for element in ["test", 10, 3.14, False]:
     print("Element de liste1 :", element)
+print()
+
+input_value = input("Entrez une valeur : ")
+print("Vous avez entré :", input_value)
+
+input_number = int(input("Entrez un nombre : "))
+print("Vous avez entré le nombre :", input_number)
+
+input_float = float(input("Entrez un nombre à virgule : "))
+print("Vous avez entré le nombre à virgule :", input_float)
+
+input_string = str(input("Entrez une chaîne de caractères : "))
+print("Vous avez entré la chaîne de caractères :", input_string)
