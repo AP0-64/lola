@@ -97,3 +97,22 @@ print(liste_de_listes)
 print(liste_de_listes[0])  # Affiche [1, 2]
 print(liste_de_listes[0][0])  # Affiche "a"
 print()
+
+liste1[0]= 10
+print(liste1)  # Affiche [10, 2, 3, 4, 5]
+print()
+
+longueur = len(liste1)
+print("La longueur de liste1 est :", longueur)
+print()
+
+liste1.append(6)
+print(liste1)  # Affiche [10, 2, 3, 4, 5, 6]
+print()
+
+liste1.remove(10)
+print(liste1)  # Affiche [2, 3, 4, 5, 6]
+print()
+
+for element in ["test", 10, 3.14, False]:
+    print("Element de liste1 :", element)
