@@ -81,5 +81,19 @@ def test_function(x, y=0):
 
 result = test_function(9, 5)
 print("Le résultat de la fonction est :", result)
+print()
 
-res = test_function(50)
+liste1 = [1, 2, 3, 4, 5]
+liste_vide = []
+nom = ["Jean", "Marie", "Pierre"]
+listeMelangee = [1, "hello", 3.14, True]
+liste_de_listes = [[1, 2], ["a", "b"], [True, False], 5]
+print(liste1[0])  # Affiche le premier élément de liste1
+print(liste1[-1])  # Affiche le dernier élément de liste1
+print(liste_vide)
+print(nom)
+print(listeMelangee)
+print(liste_de_listes)
+print(liste_de_listes[0])  # Affiche [1, 2]
+print(liste_de_listes[0][0])  # Affiche "a"
+print()
